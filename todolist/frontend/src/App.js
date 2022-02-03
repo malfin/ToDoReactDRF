@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
-
+import axios from "axios";
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import 'bootstrap/scss/bootstrap.scss';
 import './static/css/main.css';
@@ -8,8 +9,6 @@ import Header from "./components/Header";
 import ContentList from "./components/Content";
 import Footer from "./components/Footer";
 
-import axios from "axios";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import AddContent from "./components/AddContent";
 import LoginForm from "./components/LoginForm";
 
