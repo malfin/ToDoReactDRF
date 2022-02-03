@@ -1,0 +1,68 @@
+* {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F7F8FC;
+}
+
+header {
+    background: #448AFF;
+    border-radius: 20px 20px 0 0;
+    font-weight: bold;
+}
+
+.fs-4 {
+    color: #F7F8FC;
+}
+
+.nav-link, .nav-link:hover, .nav-link:focus {
+    color: #F7F8FC;
+}
+
+
+.container > .card {
+    background: #FFFFFF;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    border: none;
+}
+
+.p-2 > .card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #212529;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    border: none;
+}
+
+.p-2 > .card:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.10);
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: .3s ease-in-out;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.btn-primary, .btn-primary:hover {
+    border: none;
+    background: #448AFF;
+    border-radius: 5px;
+    color: #F7F8FC;
+    font-weight: bold;
+}
+
+.btn-danger, .btn-danger:hover {
+    border: none;
+    background: #EC3D3D;
+    border-radius: 5px;
+    color: #F7F8FC;
+    font-weight: bold;
+}
